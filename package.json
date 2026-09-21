@@ -13,6 +13,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "autoprefixer": "^10.5.4",
     "lucide-react": "^1.33.0",
+    "asappy-web-shared-ui":"^1.1.1",
     "postcss": "^8.5.26",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
