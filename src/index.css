@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap');
+@import 'tailwindcss';
+
+@source "../node_modules/asappy-web-shared-ui/src";
+
+:root {
+  color: #fff;
+  background: #000;
+  font-family: 'Space Grotesk', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+@theme {
+  --color-primary-100: var(--color-pink-100);
+  --color-primary-200: var(--color-pink-200);
+  --color-primary-300: var(--color-pink-300);
+  --color-primary-400: var(--color-pink-400);
+  --color-primary-500: var(--color-pink-500);
+  --color-primary-600: var(--color-pink-600);
+  --color-primary-700: var(--color-pink-700);
+  --color-primary-800: var(--color-pink-800);
+  --color-primary-900: var(--color-pink-900);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #000;
+}
+
+a {
+  color: inherit;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(1rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeInUp 800ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}
+
+.delay-1 { animation-delay: 0.1s; }
+.delay-1-1 { animation-delay: 0.5s; }
+.delay-1-2 { animation-delay: 0.7s; }
+.delay-2 { animation-delay: 0.9s; }
+.delay-3 { animation-delay: 1.2s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in {
+    animation: none;
+    opacity: 1;
+  }
+}

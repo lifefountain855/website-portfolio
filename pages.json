@@ -1,0 +1,32 @@
+[
+    {
+        "link":"mendez-fuel",
+        "description":"gas station website",
+        "title":"Mendez Fuel",
+        "longDescription":"",
+        "lastEdit":[7,25,2026],
+        "displayReady":false,
+        "imageURL":"mendez-fuel.png",
+        "react":false
+    },
+    {
+        "link":"wedding",
+        "description":"my 2027 wedding website",
+        "title":"K&E Wedding",
+        "longDescription":"",
+        "lastEdit":[7,25,2026],
+        "displayReady":true,
+        "imageURL":"wedding.png",
+        "externalLink":"https://wedding.asappy.me",
+        "react":false
+    },
+    {
+        "link":"test-1",
+        "description":"test website",
+        "title":"Test #1",
+        "longDescription":"",
+        "lastEdit":[8,12,2026],
+        "displayReady":true,
+        "react":false
+    }
+]
