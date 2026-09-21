@@ -3,6 +3,9 @@ name: Generate Lockfile
 on:
   workflow_dispatch: # Allows you to trigger it manually from your phone
 
+permissions:
+  contents: write
+
 jobs:
   build-lockfile: # This must be indented under jobs
     runs-on: ubuntu-latest
