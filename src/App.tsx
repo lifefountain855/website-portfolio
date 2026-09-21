@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NotFound from './pages/not-found';
 import { DisplayCard, GridDisplays, UseFavicon } from "asappy-web-shared-ui";
-import allPages from '../pages.json'
+import allPages from '../public/pages.json'
 const color="#A3004C"
 
 export default function App() {
