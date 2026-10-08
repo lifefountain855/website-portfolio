@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NotFound from './pages/not-found';
 import { DisplayCard, GridDisplays, UseFavicon } from "asappy-web-shared-ui";
-import allPages from '../public/pages.json'
+import allPages from '../pages.json'
 const color="#A3004C"
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
         <Route path="/" element={<GridDisplays allPages={allPages} title="Websites — Asappy" root="asappy.tech" largeTitle="websites" description="A collection of websites and experiments built with care. I enjoy
-            making useful web applications with a responsive UI and powerful backend."/>} />
+            making useful web applications with a responsive UI and powerful backend. Usually with React-Vite front-end and Supabase database and edge functions and email/sms API. AI integrations and automated work flows for lead confirmation and follow-up."/>} />
         {/* <Route path="/about" element={<About />} /> */}
         <Route path="*" element={<NotFound />} />
         {allPages.map((item)=>(
