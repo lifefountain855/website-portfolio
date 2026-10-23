@@ -14,7 +14,7 @@
         "description":"my 2027 wedding website",
         "title":"K&E Wedding",
         "longDescription":"",
-        "lastEdit":[8,2,2026],
+        "lastEdit":[10,12,2026],
         "displayReady":true,
         "imageURL":"wedding.png",
         "externalLink":"https://wedding.asappy.me",
@@ -40,6 +40,27 @@
         "displayReady":true,
         "imageURL":"surveys.png",
         "externalLink":"https://surveys.asappy.me",
+        "react":false
+    },
+    {
+        "link":"wgw",
+        "description":"Website and portal for cleaning company",
+        "title":"White Glove Ward",
+        "longDescription":"Booking with internal database, payments with stripe, and price calculations done back-end serverless functions.",
+        "lastEdit":[10,23,2026],
+        "displayReady":false,
+        "imageURL":"whitegloveward.png",
+        "react":false
+    },
+    {
+        "link":"3danim",
+        "description":"create and preview react animations of 3D models",
+        "title":"3D Anim Maker",
+        "longDescription":"A web-based tool for creating and previewing animations of 3D models. Uses phases of rotation, scale, and position. always returns to original position at the end. Uses three.js and react 3 fiber.",
+        "lastEdit":[10,18,2026],
+        "displayReady":true,
+        "externalLink":"https://lifefountain855.github.io/3d-anim-maker/",
+        "imageURL":"3danim.png",
         "react":false
     }
 ]
